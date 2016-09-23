@@ -1,23 +1,23 @@
 p {
 	font-size: 18px;
-	color: #576D94;
 	font-family: 'Oswald', sans-serif;
 
 }
 div {
-	border-radius: 5px;
-	border: 2px solid #6495ED;
-	background-color: #BCD2EE;
+	border-radius: 0px;
+	border: 2px solid #0999B0;
+	background-color: #0999B0 ;
 	height: 50px;
-	width: 120px;
+	width: ;
 	margin: auto;
 	text-align: center;
 }
 
 a {
 	text-decoration: none;
-	color: #3D59AB;
-	font-family: Verdana, sans-serif;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
 }
 
 span {
@@ -25,3 +25,40 @@ span {
 	font-size: 18px;
 	color: #ffffff;
 }
+
+#header {
+	border-radius: 0px;
+	border: 2px solid #0999B0;
+	background-color: #0999B0 ;
+	height: 50px;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+#rcbutton {
+	font-family: 'Oswald', sans-serif;
+}
+body {
+    margin: 0;
+    text-align: center;
+}
+#header ul li a{
+    margin: 0;
+    diplay: inline;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+#header ul li {
+	float:left;
+    list-style-type: none;
+}
+
+li a:hover {
+    background-color: white;
+    color: #0999B0;
+}
+
+li {
+    float: left;
